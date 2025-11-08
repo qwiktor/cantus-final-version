@@ -1,0 +1,9 @@
+{
+  "name": "cantus-sheet-music-processor",
+  "version": "1.0.0",
+  "description": "Dependencies for Netlify serverless function.",
+  "dependencies": {
+    "@google/genai": "^1.29.0",
+    "@netlify/functions": "^5.1.0"
+  }
+}

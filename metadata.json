@@ -1,0 +1,5 @@
+{
+  "name": "Układanie stron dla Cantusów",
+  "description": "Narzędzie do automatycznego przygotowywania plików PDF z nutami do druku dwustronnego. Aplikacja inteligentnie analizuje utwory i dodaje puste strony, aby zapewnić, że dwustronicowe kompozycje są zawsze poprawnie ułożone na sąsiednich kartkach.",
+  "requestFramePermissions": []
+}

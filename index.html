@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Układanie stron dla Cantusów</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'gray': {
+                850: '#182030',
+                950: '#0b0f1a',
+              },
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "pdf-lib": "https://aistudiocdn.com/pdf-lib@^1.17.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "pdfjs-dist": "https://aistudiocdn.com/pdfjs-dist@^5.4.394",
+    "pdfjs-dist/": "https://aistudiocdn.com/pdfjs-dist@^5.4.394/",
+    "file-saver": "https://aistudiocdn.com/file-saver@^2.0.5",
+    "@netlify/functions": "https://aistudiocdn.com/@netlify/functions@^5.1.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-950 text-gray-200">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
