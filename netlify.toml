@@ -1,0 +1,14 @@
+# To jest ostateczna i kompletna konfiguracja dla Netlify.
+
+[build]
+  # Polecenie do wykonania: "npm install" zainstaluje narzędzia (@google/genai)
+  # potrzebne dla naszej funkcji serwerowej z pliku package.json.
+  command = "npm install"
+  
+  # Katalog do publikacji: "." oznacza, że nasza strona (index.html)
+  # znajduje się w głównym folderze projektu.
+  publish = "."
+
+# Ta sekcja informuje Netlify, gdzie szukać naszych funkcji serwerowych.
+[functions]
+  directory = "netlify/functions/"
