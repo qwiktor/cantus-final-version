@@ -1,13 +1,12 @@
-# To jest ostateczna i kompletna konfiguracja dla Netlify.
+# To jest ostateczna i kompletna konfiguracja dla Netlify dla projektu Vite.
 
 [build]
-  # Polecenie do wykonania: "npm install" zainstaluje narzędzia (@google/genai)
-  # potrzebne dla naszej funkcji serwerowej z pliku package.json.
-  command = "npm install"
+  # Polecenie "npm run build" uruchomi "tłumacza" (Vite), który przygotuje
+  # pliki strony w folderze "dist".
+  command = "npm run build"
   
-  # Katalog do publikacji: "." oznacza, że nasza strona (index.html)
-  # znajduje się w głównym folderze projektu.
-  publish = "."
+  # Po zbudowaniu, Netlify opublikuje zawartość folderu "dist".
+  publish = "dist"
 
 # Ta sekcja informuje Netlify, gdzie szukać naszych funkcji serwerowych.
 [functions]
